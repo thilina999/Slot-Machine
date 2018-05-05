@@ -1,0 +1,61 @@
+2018-01-05 09:04:23,230 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-7 - Using the following cache for assets configuration:
+	 enabledCaching = false
+	 enabledCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2018-01-05 09:04:23,360 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-7 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-01-05 09:04:23,422 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-7 - Application started (Dev)
+2018-01-05 09:04:59,129 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-14 - Using the following cache for assets configuration:
+	 enabledCaching = false
+	 enabledCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2018-01-05 09:04:59,187 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-14 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-01-05 09:04:59,204 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-14 - Application started (Dev)
+2018-01-05 09:53:16,189 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-68 - Using the following cache for assets configuration:
+	 enabledCaching = false
+	 enabledCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2018-01-05 09:53:16,240 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-68 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-01-05 09:53:16,247 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-68 - Application started (Dev)
+2018-01-05 12:43:30,740 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-432 - Using the following cache for assets configuration:
+	 enabledCaching = false
+	 enabledCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2018-01-05 12:43:30,789 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-432 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-01-05 12:43:30,794 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-432 - Application started (Dev)
+2018-01-05 13:19:24,470 [INFO] from play.core.server.AkkaHttpServer in pool-5-thread-4 - Stopping server...

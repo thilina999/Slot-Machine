@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",                        
+    "module": "commonjs",
+    "strict": true,
+    "strictNullChecks":false,
+	"allowJs":true,
+	"outDir":"./javascripts"
+	
+  },
+  "include": [
+	"./typescript/"
+  ]
+}

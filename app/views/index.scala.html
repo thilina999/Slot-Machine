@@ -1,0 +1,58 @@
+@()
+
+@main("Slot Machine") {
+  <div id="content" class="wrapper doc">
+		<h1>
+            <div class="container">
+                <img class="img-responsive" style="max-width:100px;height:auto;" src="@routes.Assets.versioned("images/favicon.png")">
+                <img class="img-responsive" style="max-width:100%;height:auto;" src="@routes.Assets.versioned("images/sm.png")">
+                <img class="img-responsive" style="max-width:100px;height:auto;" src="@routes.Assets.versioned("images/favicon.png")">
+            </div>
+        </h1>
+        <div class="container">
+            <div id="error"></div>
+            <div class="slot-wrapper"  name="slots">
+                <div id="reel"><img src="@routes.Assets.versioned("images/redseven.png")" id="slot1" onclick="stopreel1()"></div>
+                <div id="reel"><img src="@routes.Assets.versioned("images/redseven.png")" id="slot2" onclick= "stopreel2()"></div>
+                <div id="reel"><img src="@routes.Assets.versioned("images/redseven.png")" id="slot3" onclick="stopreel3()"></div>
+                <div class="clear"></div>
+            </div>
+            <div id="result" style="font-weight: bold;">
+               Game Results
+            </div>
+            <div id="stat" style="display:inline-flex;">
+                CREDIT : <div id="credit" >10</div>
+                BET : <div id="bet" >00</div>
+            </div>
+            <div id="buttonPanel">
+			<button type="button" class="btn btn-success" onclick="betOne()" id="control">Bet One</button>
+            <button type="button" class="btn btn-success" onclick="start()" id="control">Start</button>
+            <button type="button" class="btn btn-success" onclick="betMax()" id="control">Bet Max</button>
+            <button type="button" class="btn btn-success" onclick="addCoin()" id="control">Add Coin</button>
+            <button type="button" class="btn btn-success" onclick="statics()" id="control">Statics</button>
+            <button type="button" class="btn btn-success" onclick="reset()" id="control">Reset</button></div>
+        </div>
+
+      <div class="container" id="staticsSecction">
+          <h2>Game Statics</h2>
+          <p>This show previous results of the game. </p>
+          <table class="table" >
+              <thead>
+              <tr>
+                  <th><center>Bets</center></th>
+                  <th><center>Results</center></th>
+                  <th><center>Winnings</center></th>
+              </tr>
+              </thead>
+              <tbody id="myTable">
+              </tbody>
+              
+          </table>
+      </div>
+
+        <div class="credits">
+            <div>Author: <a href="">Thilina Dissanayake </a></div>
+            <div class="browsers">Tested in Firefox, Chrome and Microsoft Edge</div>
+        </div>    
+    </div>
+}
